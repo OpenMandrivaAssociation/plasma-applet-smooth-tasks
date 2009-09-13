@@ -19,7 +19,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	plasma-devel
 BuildRequires:	kdebase4-devel
 Requires:	kdebase4-runtime => 4.3
-
+Provides:   plasma-applet
 
 %description
 This taskbar replacement has window peeking similar to Windows 7 when
