@@ -2,7 +2,7 @@
 %define version	 0
 %define year	2009
 %define month	09
-%define day	15
+%define day	18
 %define svn	%year%month%day
 %define release	%mkrel 0.%svn.1
 %define Summary	 A smooth taskbar replacement
@@ -12,11 +12,7 @@ Summary:	%Summary
 Name:		%name
 Version:	%version
 Release:	%release
-# Original source http://www.kde-look.org/CONTENT/content-files/101586-smooth-tasks-src-wip-%{year}-%{month}-%{day}.tar.bz2
-# Currently i'm renaming the folder & the archive since the upstream folder name is something like stasks-5167e053ed0f and
-# i guess it's going to change for each release.
 Source0:	http://www.kde-look.org/CONTENT/content-files/101586-smooth-tasks-src-wip-%{year}-%{month}-%{day}.tar.bz2
-#Source0:	plasma-applet-smooth-tasks.tar.bz2
 License:	GPLv2
 Group:		Graphical desktop/KDE
 URL:		http://www.kde-look.org/content/show.php/Smooth+Tasks?content=101586
