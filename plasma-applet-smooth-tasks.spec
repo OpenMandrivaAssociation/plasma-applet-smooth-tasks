@@ -2,7 +2,7 @@
 %define version	 0
 %define year	2009
 %define month	11
-%define day	03
+%define day	11
 %define svn	%year%month%day
 %define release	%mkrel 0.%svn.1
 %define Summary	 A smooth taskbar replacement
