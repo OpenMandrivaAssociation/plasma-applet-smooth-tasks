@@ -2,7 +2,7 @@
 %define version	 0
 %define year	2009
 %define month	11
-%define day	11
+%define day	20
 %define svn	%year%month%day
 %define release	%mkrel 0.%svn.1
 %define Summary	 A smooth taskbar replacement
@@ -24,7 +24,7 @@ Provides:	plasma-applet
 
 %description
 This taskbar replacement has window peeking similar to Windows 7 when
-you use the kwin 'highlite window' effect. Even if this effect is not
+you use the kwin 'highlight window' effect. Even if this effect is not
 used you can click the tooltip in order to activate the corresponding
 window.
 
