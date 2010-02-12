@@ -1,10 +1,10 @@
 %define name	plasma-applet-smooth-tasks
 %define version	 0
-%define year	2009
-%define month	11
-%define day	26
+%define year	2010
+%define month	02
+%define day	12
 %define svn	%year%month%day
-%define release	%mkrel 0.%svn.3
+%define release	%mkrel 0.%svn.1
 %define Summary	 A smooth taskbar replacement
 
 
@@ -17,8 +17,7 @@ License:	GPLv2
 Group:		Graphical desktop/KDE
 URL:		http://www.kde-look.org/content/show.php/Smooth+Tasks?content=101586
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	plasma-devel
-BuildRequires:	kdebase4-devel
+BuildRequires:	kdebase4-workspace-devel
 Requires:	kdebase4-runtime => 4.3
 Provides:	plasma-applet
 
