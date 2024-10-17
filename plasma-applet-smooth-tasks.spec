@@ -15,7 +15,7 @@ Release:	%release
 Source0:	http://www.kde-look.org/CONTENT/content-files/101586-smooth-tasks-src-wip-%{year}-%{month}-%{day}.tar.bz2
 License:	GPLv2
 Group:		Graphical desktop/KDE
-URL:		http://www.kde-look.org/content/show.php/Smooth+Tasks?content=101586
+URL:		https://www.kde-look.org/content/show.php/Smooth+Tasks?content=101586
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	kdebase4-workspace-devel
 Requires:	kdebase4-runtime => 4.3
